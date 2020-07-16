@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Villa Trojany</title>
+    <meta property="og:image" content="https://www.villatrojany.pl/assets/img/Logo/link_logo.png">
+    <meta name="description" content="Całodobowy Dom Opieki dla osób starszych oraz chorych - Villa Trojany. Żmijewo-Trojany 17, 06-560.">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body style="color: rgb(255,255,255);font-family: 'Open Sans Condensed', sans-serif;">
+    <div id="loader" style="background-color: rgb(214,214,214);">
+        <div class="col text-center loader_column"><img src="assets/img/Logo/av1.png" width="40%"></div>
+        <div class="col text-center loader_spinner" style="padding-top: 20px;"><span class="spinner-grow text-secondary loader_spinner" role="status"></span><span class="spinner-grow text-secondary" role="status"></span><span class="spinner-grow text-secondary" role="status"></span></div>
+    </div>
+    <div class="btn-group-vertical btn-group-lg align-items-end" role="group" id="button-group"><a class="btn text-right" role="button" href="https://www.facebook.com/Villa-Trojany-111707006869660/" target="_blank" style="margin-top: -1px;padding-left: 0px;max-width: 70px;"><img class="img-fluid" src="assets/img/Icons/fppop.png" width="70%" style="min-width: 70px;"></a>
+        <a
+            class="btn text-right" role="button" href="https://www.instagram.com/villatrojany/" target="_blank" style="padding-left: 0px;max-width: 70px;"><img class="img-fluid" src="assets/img/Icons/instapop.png" width="70%" style="min-width: 70px;"></a><a class="btn text-right d-print-none d-md-none d-lg-none d-xl-none justify-content-end" role="button" href="tel:+48500138491" style="margin: 0px;padding-right: 0px;max-width: 70px;padding-left: 0px;"><img class="img-fluid" src="assets/img/Icons/tppop.png" width="70%" style="min-width: 70px;"></a>
+            <a
+                class="btn text-right d-none d-print-inline-block d-sm-none d-md-inline-block d-lg-inline-block d-xl-inline-block justify-content-end" role="button" href="contact.html" style="padding-right: 0px;margin: 0px;padding-left: 0px;max-width: 70px;"><img class="img-fluid" src="assets/img/Icons/tppop.png" width="70%" style="padding-left: 0px;min-width: 70px;"></a><a class="btn text-right" role="button" href="index.html#contact" style="padding-right: 0px;margin: 0px;padding-left: 0px;max-width: 70px;"><img class="img-fluid" src="assets/img/Icons/kppop.png" width="70%" style="min-width: 70px;"></a></div>
+    <nav
+        class="navbar navbar-light navbar-expand-md fixed-top" id="navbar" style="color: rgb(255,255,255);background-color: rgba(0,0,0,0.44);font-family: 'Open Sans Condensed', sans-serif;">
+        <div class="container-fluid">
+            <div class="col d-flex justify-content-center" style="padding-left: 0px;"><a class="navbar-brand" id="brand" href="index.html"><img class="float-left" id="navbar_logo" src="assets/img/Logo/lwpop.png"></a></div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse justify-content-center justify-content-md-end justify-content-lg-end justify-content-xl-end" id="navcol-1" style="font-size: 15px;">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item d-flex justify-content-center justify-content-lg-end justify-content-xl-end" role="presentation"><a class="nav-link active text-uppercase" href="index.html#details" style="color: rgba(255,255,255,0.9);">O nas</a></li>
+                    <li class="nav-item dropdown d-flex flex-column" id="dropdown"><a class="dropdown-toggle nav-link text-uppercase text-center active" data-toggle="dropdown" aria-expanded="false" href="gallery_trojany.html" style="color: rgba(255,255,255,0.9);">Villa Trojany</a>
+                        <div class="dropdown-menu text-center text-lg-left text-xl-left"
+                            role="menu" id="dropdown-menu" style="background-color: rgba(0,0,0,0.26);margin-top: 20px;color: rgb(255,255,255);"><a class="dropdown-item text-uppercase" role="presentation" href="aktywizacja.html" style="color: rgb(255,255,255);font-size: 14px;">Aktywizacja seniora</a><a class="dropdown-item text-uppercase" role="presentation" href="cennik.html"
+                                style="color: rgb(255,255,255);font-size: 14px;">Cennik</a><a class="dropdown-item disabled text-uppercase" role="presentation" href="zespol.html" style="color: rgb(255,255,255);font-size: 14px;">zespół</a><a class="dropdown-item disabled text-uppercase"
+                                role="presentation" href="zabiegi.html" style="color: rgb(255,255,255);font-size: 14px;">zabiegi</a><a class="dropdown-item text-uppercase" role="presentation" href="regulamin.html" style="color: rgb(255,255,255);font-size: 14px;">Regulamin</a>
+                            <a
+                                class="dropdown-item text-uppercase" role="presentation" href="statut.html" style="color: rgb(255,255,255);font-size: 14px;">Statut</a><a class="dropdown-item text-uppercase" role="presentation" href="media.html" style="color: rgb(255,255,255);font-size: 14px;">Media</a><a class="dropdown-item text-uppercase" role="presentation" href="download.html"
+                                    style="color: rgb(255,255,255);font-size: 14px;">Do Pobrania</a></div>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center justify-content-lg-end justify-content-xl-end" role="presentation"><a class="nav-link active text-uppercase" href="gallery.html" style="color: rgba(255,255,255,0.9);">Galeria</a></li>
+                    <li class="nav-item d-flex justify-content-center justify-content-lg-end justify-content-xl-end" role="presentation"><a class="nav-link active text-uppercase" href="contact.html" style="color: rgba(255,255,255,0.9);">Kontakt</a></li>
+                    <li class="nav-item d-flex justify-content-center justify-content-lg-end justify-content-xl-end" role="presentation"><button class="btn" id="zoom_in" type="button"><i class="material-icons" style="color: rgb(255,255,255);">zoom_in</i></button></li>
+                    <li class="nav-item d-flex justify-content-center justify-content-lg-end justify-content-xl-end" role="presentation"><button class="btn" id="zoom_out" type="button"><i class="material-icons" style="color: rgb(255,255,255);">zoom_out</i></button></li>
+                </ul>
+        </div>
+        </div>
+        </nav>
+        <div class="container-fluid text-center d-flex justify-content-center align-items-center" style="background-color: #27371e;margin: 0px;padding: 0px;height: 200px;padding-left: 15px;background-image: url(&quot;assets/img/Backgrounds/background.png&quot;);font-family: 'Open Sans Condensed', sans-serif;">
+            <div class="row d-md-flex justify-content-md-center align-items-md-center" style="color: rgb(0,0,0);">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <h1 class="text-uppercase d-md-flex justify-content-md-center align-items-md-center spaced" style="padding-top: 60px;color: rgb(255,255,255);"><strong>Regulamin</strong></h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center" style="color: rgb(0,0,0);">
+            <div class="row" style="margin-bottom: 15px;">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <p class="text-center" style="color: rgb(0,0,0);width: 70%;font-size: 20px;margin-top: 20px;"><strong>REGULAMIN ORGANIZACYJNY Placówki&nbsp;zapewniającej całodobową opiekę osobom niepełnosprawnym, przewlekle chorym lub&nbsp;osobom w podeszłym wieku „Villa Trojany”</strong><br></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center" style="margin-bottom: 15px;">
+                    <h5><strong>ROZDZIAŁ I</strong><br><strong>Postanowienia ogólne</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 1</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Regulamin Organizacyjny Placówki „Villa Trojany”,&nbsp;<strong>zwany dalej „Regulaminem”</strong>, określa organizację, zasady działania oraz zakres i poziom usług świadczonych przez Placówkę zapewniającą całodobową opiekę osobom
+                            niepełnosprawnym, przewlekle chorym lub osobom w podeszłym wieku „Villa Trojany” z siedzibą w Żmijewie Trojanach ,&nbsp;<strong>zwaną w dalszej części Regulaminu „ Villa Trojany”</strong>.<br></li>
+                        <li>Placówka&nbsp;„Villa Trojany” działa na podstawie właściwych i obowiązujących przepisów prawa, w szczególności:<br>a)&nbsp;&nbsp;Decyzji Wojewody Mazowieckiego&nbsp;pod poz. nr 183 dotyczącej wydania zezwolenia na prowadzenie palcówki
+                            zapewniającej całodobową opiekę osobom niepełnosprawnym, przewlekle chorym lub osobom w podeszłym wieku.;<br>b)&nbsp;&nbsp;Niniejszego Regulaminu.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 2.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Placówka „Villa Trojany” w Żmijewie Trojanach jest przeznaczona dla 68 osób przewlekle chorych, niepełnosprawnych lub osób w podeszłym wieku. <br></li>
+                        <li>Ilekroć w regulaminie jest mowa o:<br>a)&nbsp;&nbsp;Regulaminie – należy przez to rozumieć regulamin organizacyjny Placówki „Villa Trojany”,<br>b)&nbsp;&nbsp;Placówce – należy przez to rozumieć Placówkę „Villa Trojany” w Żmijewie
+                            Trojanach gmina Stupsk;<br>c)&nbsp;&nbsp;Dyrektorze – należy przez to rozumieć osobę odpowiedzialną za całokształt działalności Placówki „Villa Trojany” w Żmijewie Trojanach,<br>d)&nbsp;&nbsp;Pracowniku – należy przez to rozumieć
+                            osobę zatrudnioną w Placówce,<br>e)&nbsp;&nbsp;Mieszkańcu, Podopiecznym – należy przez to rozumieć osobę korzystającą z usług Placówki,<br>f)&nbsp;&nbsp;Podmiocie prowadzącym - należy przez to rozumieć, VILLA TROJANY sp. z
+                            o.o.,<br>g)&nbsp;&nbsp;Właścicielu – należy przez to rozumieć VILLA TROJANY sp. z o.o. z siedzibą w Warszawie, zarejestrowaną w rejestrze przedsiębiorców prowadzonym przez Sąd Rejonowy dla m. st. Warszawy XIII Wydział Gospodarczy
+                            Krajowego Rejestru Sądowego pod numerem 0000794017.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 3.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Placówka „ Villa Trojany” jest samodzielną jednostką, prowadzoną przez VILLA TROJANY spółka z o. o<br></li>
+                        <li>Placówka jest jednostką prywatną, stacjonarną, stałego i okresowego pobytu zapewniającą całodobową opiekę osobom&nbsp;przewlekle somatycznie chorym, niepełnosprawnym i osobom w podeszłym wieku.</li>
+                        <li>Placówka „Villa Trojany” świadczy usługi : bytowe, opiekuńcze, wspomagające medyczne, rehabilitacyjne.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 4.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Siedzibą Placówki&nbsp;jest miejscowość Żmijewo Trojany.<br></li>
+                        <li>Placówka „Villa Trojany” jest zlokalizowana w miejscowości Żmijewo Trojany 17,&nbsp;gmina Stupsk , 06 – 561 Stupsk.<br></li>
+                        <li>Placówka używa nazwy:&nbsp;Placówka „ Villa Trojany” dla osób przewlekle&nbsp;chorych, niepełnosprawnych lub w podeszłym wieku.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 5.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex flex-column justify-content-center align-items-center justify-content-md-center align-items-lg-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Podmiotem prowadzącym Placówkę „Villa Trojany”&nbsp;jest&nbsp;VILLA TROJANY spółka z ograniczoną odpowiedzialnością.<br></li>
+                        <li>Do zadań Właściciela Placówki&nbsp;należy w szczególności:<br>a)&nbsp;&nbsp;zapewnienie bazy lokalowej Placówki&nbsp;i utrzymanie jej stanu technicznego na poziomie zapewniającym spełnienie standardu określonego w ustawie o pomocy
+                            społecznej;<br>b)&nbsp;&nbsp;prowadzenie gospodarki finansowej ,<br>c)&nbsp;&nbsp;wynagradzanie pracowników zgodnie z obowiązującymi przepisami prawa;<br>d)&nbsp;&nbsp;przestrzeganie przepisów BHP.<br></li>
+                    </ol>
+                    <p class="text-left" style="color: rgb(0,0,0);font-size: 20px;margin-top: 20px;width: 75%;">Placówką kieruje Dyrektor zatrudniony przez Właściciela&nbsp;przy pomocy kierownika ds. administracyjno – organizacyjnych.<br></p>
+                    <ol class="text-left" style="font-size: 20px;width: 80%;" start="3">
+                        <li>Dyrektor odpowiada za prawidłowe funkcjonowanie Placówki&nbsp;i reprezentuje ją na zewnątrz.<br></li>
+                        <li>W działalności Placówki&nbsp;obowiązują zasady praworządności, sprawiedliwości, gospodarności, służebności wobec&nbsp;klientów i współdziałania ze społecznością.<br></li>
+                        <li>Dyrektor kierując Placówką , w szczególności:<br>a)&nbsp;&nbsp;określa organizację wewnętrzną oraz tryb pracy Placówki,<br>b)&nbsp;&nbsp;dokonuje podziału zadań pracownikom Placówki i kieruje ich pracą,<br>c)&nbsp;&nbsp;określa
+                            zasady polityki kadrowej, dba o należyty dobór pracowników i podnoszenie ich kwalifikacji,<br>d)&nbsp;&nbsp;rozstrzyga sprawy sporne miedzy pracownikami,<br>e)&nbsp;&nbsp;awansuje, nagradza, wyróżnia, ewentualnie udziela kar
+                            pracownikom Placówki,<br>f)&nbsp;zapewnia skuteczny nadzór nad pracą podległych pracowników,<br>g)&nbsp;&nbsp;nadzoruje przestrzeganie przez pracowników Placówki dyscypliny pracy i właściwego stosunku do mieszkańców Placówki,<br>h)&nbsp;&nbsp;nadzoruje
+                            prawidłowość oceny sytuacji podopiecznego;<br>i)&nbsp;&nbsp;prowadzi nadzór nad jakością i prawidłowością świadczonych usług,<br>j)&nbsp;&nbsp;prowadzi nadzór nad warunkami życia mieszkańców<br></li>
+                        <li>Dyrektor zapewnia system kontroli , który obejmuje:<br>a)&nbsp;&nbsp;zgodność działalności z przepisami prawa,<br>b)&nbsp;&nbsp;skuteczne i efektywne działania,<br>c)&nbsp;&nbsp;przestrzeganie i promowanie zasad etycznego zachowania,<br>d)&nbsp;&nbsp;efektywność
+                            i skuteczność przepływu informacji. &nbsp;<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center" style="margin-bottom: 15px;">
+                    <h5><strong>ROZDZIAŁ II</strong><br><strong>Szczegółowy zakres zadań Placówki&nbsp;</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 6.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Placówka zaspakaja swoim mieszkańcom&nbsp;potrzeby bytowe, opiekuńcze i wspomagające zgodnie z obowiązującymi w tym zakresie standardami, poprzez świadczenie usług:<br>1) bytowych, zapewniając: <br>&nbsp; a) miejsce zamieszkania;
+                            <br>&nbsp; b) wyposażenie w niezbędne meble i sprzęt, pościel i bieliznę pościelową; <br>&nbsp; c) wyżywienie w tym dietetyczne zgodnie ze wskazaniami lekarskimi, w ramach obowiązujących norm żywieniowych; <br>&nbsp; d) odzież
+                            i obuwie; <br>&nbsp; e) utrzymanie czystości w placówce,<br>2) opiekuńczych, polegających na: <br>&nbsp; a) udzielaniu pomocy w podstawowych czynnościach życiowych, <br>&nbsp; b) pielęgnacji, w tym pielęgnacji podczas choroby,<br>&nbsp;
+                            c) niezbędnej pomocy w załatwianiu spraw osobistych,<br>&nbsp; d) stymulowaniu nawiązywania, utrzymywania i rozwijania kontaktu z rodziną i społecznością lokalną; <br>&nbsp; e) działaniu zmierzającym do usamodzielnienia się
+                            mieszkańca, w miarę jego możliwości;<br>&nbsp; f) zapewnieniu bezpiecznego przechowywania środków pieniężnych i przedmiotów wartościowych; <br>&nbsp; g) zapewnieniu przestrzegania praw mieszkańców oraz dostępności do informacji
+                            o tych prawach dla mieszkańców placówki; <br>&nbsp; h) sprawnym wnoszeniu i załatwianiu skarg i wniosków mieszkańców.<br></li>
+                        <li>Poza tym, Placówka:<br>a)&nbsp;&nbsp;umożliwi mieszkańcom korzystanie z opieki lekarskiej, pielęgnacyjnej, badań diagnostycznych, rehabilitacji leczniczej, materiałów medycznych, zaopatrzenia ortopedycznego oraz innych świadczeń
+                            przysługujących z tytułu powszechnego ubezpieczenia zdrowotnego,<br>b)&nbsp;&nbsp;zapewni spokój i bezpieczeństwo na terenie placówki oraz opiekę w czasie organizowanych zajęć poza placówką;<br>c)&nbsp;&nbsp;ochronę danych
+                            osobowych mieszkańców;<br>d)&nbsp;&nbsp;pomoc w zakupie odzieży i obuwia oraz innych drobnych zakupów;<br>e)&nbsp;&nbsp;organizację czasu wolnego;<br>f)&nbsp;&nbsp;regularny kontakt z Dyrektorem Placówki w określonych dniach
+                            i godzinach, podanych, do wiadomości w dostępnym miejscu.<br></li>
+                        <li>Zakres usług, które zapewnia Placówka, ustala się uwzględniając indywidualne potrzeby i możliwości psychofizyczne mieszkańców.&nbsp;<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 7.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex flex-column justify-content-center align-items-center justify-content-md-center">
+                    <p class="text-left" style="color: rgb(0,0,0);font-size: 20px;margin-top: 20px;width: 75%;">W organizacji życia mieszkańców uwzględnia się między innymi następujące zasady:<br></p>
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>podmiotowe traktowanie mieszkańców i partnerstwo ze strony personelu;<br></li>
+                        <li>zapewnienie własnej przestrzeni życiowej;<br></li>
+                        <li>posiadanie własnych rzeczy i przedmiotów oraz miejsca do ich przechowywania;<br></li>
+                        <li>spożywanie posiłków w jadalni lub w pokoju mieszkalnym;<br></li>
+                        <li>umożliwienie mieszkańcom udziału w czynnościach związanych z ich codziennym życiem;<br></li>
+                        <li>sprzątanie pomieszczeń w miarę potrzeb nie rzadziej niż raz dziennie;<br></li>
+                        <li>przestrzegania praw mieszkańców placówki oraz dostępność do informacji o tych prawach dla mieszkańców;<br></li>
+                        <li>rozpatrywanie skarg i wniosków.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 8.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Realizując zadania określone w § 6&nbsp;niniejszego Regulaminu Placówki&nbsp;współpracuje z:<br>I.&nbsp;&nbsp;zakładami opieki zdrowotnej;<br>II.&nbsp;&nbsp;rodzinami i opiekunami prawnymi mieszkańców;<br>III.&nbsp;&nbsp;kościołami
+                            i związkami wyznaniowymi;<br>IV.&nbsp;&nbsp;stowarzyszeniami, organizacjami, fundacjami;<br>V.&nbsp;&nbsp;placówkami kulturalno– oświatowymi;<br>VI.&nbsp;&nbsp;instytucjami i firmami, mogącymi wesprzeć&nbsp;placówkę&nbsp;finansowo
+                            lub rzeczowo;<br>VII.&nbsp;&nbsp;osobami fizycznymi i prawnymi<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center" style="margin-bottom: 15px;">
+                    <h5><strong>ROZDZIAŁ III</strong><br><strong>Prawa i obowiązki mieszkańca</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 9.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Mieszkaniec placówki ma prawo w szczególności do:<br>a)&nbsp;&nbsp;uzyskania pełnej informacji o usługach świadczonych przez Placówkę i możliwości korzystania z nich;<br>b)&nbsp;&nbsp;uzyskania pomocy w zaspokojeniu swych życiowych
+                            potrzeb;<br>c)&nbsp;&nbsp;zachowania samodzielności i godnego traktowania;<br>d)&nbsp;&nbsp;ochrony dóbr osobistych;<br>e)&nbsp;&nbsp;zaspokojenia potrzeb religijnych i kulturowych;<br>f)&nbsp;&nbsp;posiadania przedmiotów i
+                            miejsca do ich przechowywania oraz innych przedmiotów po uzgodnieniu z Dyrektorem Placówki,<br>g)&nbsp;&nbsp;uzyskania wyjaśnienia w sprawach regulujących zasady współżycia mieszkańców;<br>h)&nbsp;&nbsp;uzyskania pomocy w załatwianiu
+                            spraw osobistych;<br>i)&nbsp;&nbsp;uczestniczenia w podejmowaniu decyzji w sprawach dotyczących jego osoby;<br>j)&nbsp;&nbsp;aktywnego trybu życia stosownie do stanu zdrowia;<br>k)&nbsp;&nbsp;zgłaszania skarg i wniosków do
+                            Dyrektora Placówki;<br>l)&nbsp;&nbsp;przyjmowania odwiedzin krewnych i znajomych oraz świadczenia z ich strony pielęgnacji i opieki;<br>m)&nbsp;&nbsp;przebywania poza Placówką po uprzednim zgłoszeniu tego zamiaru Dyrektorowi
+                            Placówki lub wskazanej przez niego osobie.<br></li>
+                        <li>Obowiązkiem mieszkańca Placówki jest w szczególności:<br>a) współdziałanie z pracownikami Placówki;<br>b) dbanie na miarę własnych sił i możliwości o higienę osobistą, wygląd zewnętrzny oraz ład i porządek w swoich rzeczach osobistych
+                            i otoczeniu;<br>c) przestrzeganie: <br>&nbsp; - zasad zawartych w Regulaminie Placówki; <br>&nbsp; - przestrzeganie zasad i norm współżycia społecznego; <br>&nbsp; - zakazu nadużywania alkoholu na terenie placówki, <br>&nbsp;
+                            -zakazu palenia tytoniu na terenie placówki z wyjątkiem miejsc do tego&nbsp;wyznaczonych; <br>&nbsp; - przepisów przeciwpożarowych, sanitarnych i bhp; <br>&nbsp; - uzyskanie zgody Dyrektora Placówki na wszelkie zmiany w pokoju
+                            mieszkalnym związane z demontowaniem urządzeń i sprzętu; <br>&nbsp; - niezwłoczne powiadomienie Personelu o awarii, uszkodzeniu sprzętu lub&nbsp;urządzeń; <br>&nbsp; - właściwe korzystanie ze stołówki, <br>&nbsp; - przestrzegania
+                            ustalonych godzin spożywania posiłków: śniadanie – 7:30 – 9:30 obiad – 13:00 - 15:00 kolacja – 18:00 – 20:00;<br>&nbsp; - dbanie o mienie Placówki; <br>&nbsp; - ponoszenie terminowych opłat za pobyt w Placówce i dodatkowe usługi
+                            nie&nbsp;zawarte w umowie.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 10.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Opieka nad mieszkańcem ma charakter ciągły.<br></li>
+                        <li>Formy i zakres sprawowanej nad mieszkańcem opieki uzależnione są od:<br>a)&nbsp;&nbsp;zakresu samodzielności mieszkańca;<br>b)&nbsp;dotychczasowych doświadczeń życiowych;<br>c)&nbsp;&nbsp;sytuacji prawnej,<br>d)&nbsp;sytuacji rodzinnej,<br>e)&nbsp;&nbsp;stanu
+                            zdrowia.<br></li>
+                        <li>Przez ciągły charakter opieki należy rozumieć opiekę całodobową, ale jej zakres związany jest bezpośrednio z oceną stopnia samodzielności mieszkańca i jego potrzeb.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center" style="margin-bottom: 15px;">
+                    <h5><strong>DZIAŁ IV</strong><br><strong>Struktura organizacyjna Placówki </strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 11.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>W Placówce&nbsp;funkcjonują następujące komórki organizacyjne:<br>I.&nbsp;&nbsp;Zespół Medyczno – opiekuńczo – terapeutyczny;<br>II.&nbsp;&nbsp;Zespół Administracyjno – organizacyjny.<br></li>
+                        <li>Dyrektorowi podlega Zespół Medyczno – opiekuńczo – terapeutyczny.<br></li>
+                        <li>Kierownikowi&nbsp;podlega Zespół&nbsp;Administracyjno – organizacyjny.<br></li>
+                        <li>Placówka może korzystać z pomocy wolontariuszy, stażystów i praktykantów. Warunki tej pomocy określa zawarta umowa.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 12.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Zespół Medyczno – opiekuńczo - terapeutyczny zapewnia zaspokojenie codziennych potrzeb mieszkańców.<br></li>
+                        <li>Do zadań Zespołu Medyczno – opiekuńczo - terapeutycznego należy w szczególności:<br>1)&nbsp;&nbsp;zapewnienie właściwej opieki medycznej i rehabilitacyjnej nad Mieszkańcami Placówki;<br>2)&nbsp;&nbsp;pomoc w&nbsp;zaopatrzeniu mieszkańców
+                            w leki;<br>3)&nbsp;&nbsp;utrzymanie właściwego stanu higieniczno – sanitarnego;<br>4)&nbsp;&nbsp;prowadzenie dokumentacji stanu zdrowia mieszkańców;<br>5)&nbsp;&nbsp;wydawanie posiłków i karmienie mieszkańców niezdolnych do
+                            samodzielnego ich spożywania;<br>6)&nbsp;&nbsp;ubieranie, mycie i kąpanie osób, które nie mogą samodzielnie wykonywać tych czynności;<br>7)&nbsp;&nbsp;pomoc przy zmianie bielizny osobistej i pościelowej mieszkańców;<br>8)&nbsp;&nbsp;kreowanie
+                            modelu zachowań pro zdrowotnych ze szczególnym propagowaniem rożnych form zajęć ruchowych, które pozwolą na utrzymanie możliwie dobrej sprawności fizycznej mieszkańców;<br>9)&nbsp;&nbsp;współpraca z placówkami opieki zdrowotnej;<br>10)&nbsp;&nbsp;rozwój
+                            samorządności wśród mieszkańców Placówki;<br>11)&nbsp;&nbsp;zapewnienie mieszkańcom pomocy w adaptacji i w zabezpieczeniu mienia osobistego;<br>12)&nbsp;&nbsp;pomoc mieszkańcom w rozwiązywaniu ich codziennych problemów;<br>13)&nbsp;prowadzenie
+                            terapii zajęciowej wśród mieszkańców oraz ich aktywizacja;<br>14)&nbsp;&nbsp;prowadzenie działalności kulturalno – oświatowej, rekreacyjnej i turystycznej wśród mieszkańców Placówki, organizowanie świąt, uroczystości okazjonalnych
+                            oraz imprez artystycznych dla mieszkańców Placówki takich jak: wystawy, koncerty, spotkania, konkursy, wycieczki itp.;<br>15)&nbsp;&nbsp;inspirowanie mieszkańców do brania udziału w zajęciach terapeutycznych oraz tworzenie
+                            kół zainteresowań i eksponowanie ich twórczości;<br>16)&nbsp;&nbsp;dokonywanie zakupów na prośbę mieszkańców Placówki;<br>17)&nbsp;&nbsp;zapewnienie zainteresowanym dostępu do kapłanów i udziału w praktykach religijnych zgodnie
+                            z wyznaniem mieszkańców,&nbsp;<br>18)&nbsp;&nbsp;utrzymanie należytego stanu sanitarnego w pokojach mieszkalnych i w pomieszczeniach towarzyszących;<br>19)&nbsp;&nbsp;prowadzenie dokumentacji mieszkańców;<br>20)&nbsp;&nbsp;utrzymanie
+                            kontaktu z rodzinami mieszkańców i ich środowiskiem;<br>21)&nbsp;&nbsp;prowadzenie ewidencji nieobecności mieszkańców;<br>22)&nbsp;&nbsp;opieka nad mieszkańcami podczas organizowanych imprez przez Placówkę.<br></li>
+                        <li>Szczegółowy zakres obowiązków na poszczególnych stanowiskach pracy określa „zakres czynności”.<br></li>
+                        <li>Skład Zespołu Medyczno – opiekuńczo – terapeutycznego wchodzą następujące stanowiska służbowe:&nbsp;<br>a)&nbsp;&nbsp;Lekarz;<br>b)&nbsp;&nbsp;koordynator Zespołu; pielęgniarki;<br>c)&nbsp;&nbsp;fizjoterapeuci,&nbsp;masażyści;<br>d)&nbsp;&nbsp;opiekunowie;<br>e)&nbsp;&nbsp;instruktorzy
+                            terapii zajęciowej&nbsp;i kulturalno – oświatowi;<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 13.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Zespół Administracyjno – organizacyjny podlega kierownikowi ds. administracji&nbsp; zapewniając właściwą bazę materialną funkcjonowania Placówki i jego obsługi.<br></li>
+                        <li>Do zadań Zespołu&nbsp;Administracyjno – organizacyjnego należy&nbsp; w szczególności:<br>1)&nbsp;&nbsp;utrzymanie w pełnej sprawności urządzeń i instalacji będących na wyposażeniu Placówki;<br>2)&nbsp;zapewnienie pełnego zaopatrzenia
+                            niezbędnego do prawidłowego funkcjonowania Placówki, a w szczególności wyposażenia w niezbędne meble i sprzęty, pościel i bieliznę pościelową, środki utrzymania czystości i higieny osobistej oraz artykuły spożywcze i medyczne;<br>3)&nbsp;&nbsp;utrzymanie
+                            w czystości oraz konserwacja bielizny i odzieży użytkowanej przez mieszkańców Placówki oraz będącej na wyposażeniu Placówki;<br>4)&nbsp;&nbsp;prowadzenie remontów i napraw, a także dbanie o racjonalne wykorzystanie środków
+                            rzeczowych i finansowych przeznaczonych na te cele;<br>5)&nbsp;&nbsp;dokonywanie okresowych przeglądów technicznych budynków i urządzeń;<br>6)&nbsp;prowadzenie gospodarki materiałowej oraz nadzór nad magazynem i zaopatrzeniem;<br>7)&nbsp;&nbsp;stała
+                            kontrola wydawanych posiłków pod względem dietetycznym, dbanie o właściwą jakość żywienia;<br>8)&nbsp;&nbsp;przygotowywanie i wydawanie posiłków mieszkańcom Placówki;<br>9)&nbsp;&nbsp;utrzymanie w należytym stanie terenów zielonych;<br>10)&nbsp;&nbsp;utrzymanie
+                            w sprawności technicznej urządzeń grzewczych c.o.;<br>11)&nbsp;&nbsp;zabezpieczenie pomieszczeń i mienia przed kradzieżą i pożarem;<br>12)&nbsp;&nbsp;współpraca z zespołem medyczno – opiekuńczo – terapeutycznym;<br>13)&nbsp;&nbsp;opracowywanie
+                            projektów planów finansowych oraz analiza wykonania tych planów;<br>14)&nbsp;&nbsp;wnioskowanie składu komisji inwentaryzacyjnej oraz współpraca z komisją inwentaryzacyjną w toku przeprowadzanej inwentaryzacji;<br>15)&nbsp;&nbsp;rozliczanie
+                            inwentaryzacji;<br>16)&nbsp;&nbsp;bezpieczne przechowywanie depozytów mieszkańców;<br>17)&nbsp;&nbsp;przechowywanie i&nbsp;przestrzeganie właściwego obiegu dokumentów finansowych&nbsp;zgodnie z obowiązująca instrukcją;<br>18)&nbsp;&nbsp;kontrola
+                            bieżąca zasadności wydatków placówki;<br>19)&nbsp;&nbsp;prowadzenie terminowej i rzetelnej sprawozdawczości statystycznej.<br></li>
+                        <li>Szczegółowy zakres obowiązków na poszczególnych stanowiskach pracy określa „zakres czynności”.<br></li>
+                        <li>W skład Zespół Administracyjno –organizacyjnego&nbsp;zalicza się następujące stanowiska służbowe:<br>a)&nbsp;&nbsp;Kierownik ds. administracyjnych<br>b)&nbsp;&nbsp;recepcjonistka,<br>c)&nbsp;&nbsp;dietetyk,&nbsp;&nbsp;<br>d)&nbsp;&nbsp;kucharz;<br>e)&nbsp;pomoc
+                            kucharza,<br>f)&nbsp;&nbsp;Kierowca;<br>g)&nbsp;&nbsp;pracownik gospodarczy / konserwator .<br>h)&nbsp;&nbsp;księgowa,<br>i)&nbsp;&nbsp;informatyk,<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 14.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Dyrektor Placówki jest przełożonym pracowników&nbsp;Placówki.<br></li>
+                        <li>Do zadań Dyrektora Placówki należy w szczególności:<br>1)&nbsp;&nbsp;reprezentowanie placówki na zewnątrz;<br>2)&nbsp;&nbsp;koordynowanie i organizowanie pracy w placówce;<br>3)&nbsp;&nbsp;zapewnienie realizacji usług zgodnie z
+                            obowiązującym w tym zakresie standardem;<br>4)&nbsp;&nbsp;ułatwianie pracownikom możliwości podnoszenia kwalifikacji i umiejętności zawodowych w miarę potrzeb i możliwości finansowych Placówki;<br>5)&nbsp;&nbsp;opracowywanie
+                            projektu regulaminu organizacyjnego Placówki;<br>6)&nbsp;&nbsp;przygotowanie projektów aktów prawnych dotyczących Placówki;<br>7)&nbsp;&nbsp;przygotowywanie okresowych informacji i sprawozdań;<br>8)&nbsp;&nbsp;wydawanie zarządzeń
+                            wewnętrznych w ramach uprawnień wydanych przez podmiot prowadzący;<br>9)&nbsp;&nbsp;wykonywanie innych zadań wynikających z obowiązujących przepisów prawa .&nbsp;<br>10)&nbsp;zawieranie umów o pracę z pracownikami oraz dostawcami
+                            usług.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center" style="margin-bottom: 15px;">
+                    <h5><strong>ROZDZIAŁ V</strong><br><strong>Przyjmowanie mieszkańców do Placówki</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 15.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Nowi mieszkańcy umieszczani są w Placówce na podstawie:<br>a)&nbsp;&nbsp;Umowy zawartej pomiędzy Placówką&nbsp;a Mieszkańcem, bądź rodziną, jeżeli mieszkaniec z jakiś powodów nie może sam decydować o umieszczeniu;<br></li>
+                        <li>Przyjmowanie nowych mieszkańców następuje w przypadku posiadania przez Placówkę wolnych miejsc, w ciągu całego roku kalendarzowego – w indywidualnie ustalonych terminach.<br></li>
+                        <li>Nowi mieszkańcy przyjmowani są przez Dyrektora Placówki lub inną wyznaczoną przez niego osobę.<br></li>
+                        <li>Mieszkańcy nowo przyjęci są zapoznawani z regulaminem i zarządzeniami obowiązującymi w Placówce.<br></li>
+                        <li>Każdy mieszkaniec po przyjęciu poddawany jest wstępnym badaniom lekarskim.<br></li>
+                        <li>Każdy mieszkaniec ma prawo do tymczasowego zameldowania, w ewentualnych przypadkach rozpatrywanych przez Właściciela Placówki do zameldowania na pobyt stały.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 16.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex flex-column justify-content-center align-items-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Pobyt w Placówce jest odpłatny.<br></li>
+                        <li>Wysokość opłaty za pobyt w Placówce&nbsp;ustalony jest przy zawieraniu umowy.<br></li>
+                        <li>Warunki opłaty za pobyt w Placówce zawarte są w umowie. <br></li>
+                        <li>Wysokość opłat&nbsp;na dzień wejścia w życie Regulaminu uzależniona jest od standardu oraz szczególnych potrzeb i wynosi:<br>- pokój jednoosobowy –&nbsp;4.500 złotych;<br>- pokój dwuosobowy – 3.500 złotych;<br>-&nbsp;pokój trzyosobowy
+                            – 3.000 złotych.<br></li>
+                    </ol>
+                    <p class="text-left" style="color: rgb(0,0,0);width: 75%;font-size: 20px;margin-top: 20px;">Powyższe wartości mogą ulegać zmianie w zależności od czynników zewnętrznych, rynkowych i potrzeb Mieszkańców. Zmiany o odpłatności będą zawarte w aneksie oraz na stronie internetowej Placówki.<br></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 17.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Placówka&nbsp;finansowana jest:<br>✓&nbsp; ze środków własnych,<br>✓&nbsp; opłat wnoszonych przez mieszkańców.<br></li>
+                        <li>Gospodarka finansowa podlega bezpośrednio Właścicielowi Placówki.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center" style="margin-bottom: 15px;">
+                    <h5><strong>ROZDZIAŁ VI</strong><br><strong>Postanowienia końcowe</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 18.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Skargi lub wnioski ewidencjonowane są w książce skarg i wniosków znajdującej się w biurze Placówki.<br></li>
+                        <li>Skargi i wnioski rozpatrywane są przez Dyrektora Placówki.<br></li>
+                        <li>Przy rozpatrywaniu skarg i wniosków Dyrektor może zasięgnąć opinii personelu i mieszkańców.<br></li>
+                        <li>Skargi na działalność Dyrektora&nbsp;rozpatruje Mazowiecki Urząd Wojewódzki w Warszawie oraz podmiot prowadzący.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 19.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <ol class="text-left" style="font-size: 20px;width: 80%;">
+                        <li>Przypadki niestosowania się do niniejszego Regulaminu będą przedmiotem rozpatrywania przez Dyrektora .<br></li>
+                        <li>Dyrektor&nbsp;zobowiązany jest zapoznać z postanowieniami niniejszego Regulaminu:&nbsp;<br>✓&nbsp; pracowników,<br>✓ &nbsp;mieszkańców,<br>✓&nbsp; wolontariuszy.<br></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <h5><strong>§ 20.</strong><br></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex d-md-flex justify-content-center justify-content-md-center">
+                    <p class="text-left" style="color: rgb(0,0,0);font-size: 20px;margin-top: 20px;width: 75%;">Regulamin organizacyjny wchodzi w życie z dniem jego zatwierdzenia przez Właściciela.<br></p>
+                </div>
+            </div>
+        </div>
+        <footer class="d-flex d-sm-inline d-xl-flex flex-column justify-content-center justify-content-sm-center justify-content-xl-end" style="font-family: 'Open Sans Condensed', sans-serif;font-size: 14px;">
+            <div class="container-fluid" style="background-color: rgb(255,255,255);color: rgb(0,0,0);padding: 20px 0px;">
+                <div class="row d-flex d-sm-inline d-lg-flex d-xl-flex flex-row">
+                    <div class="col-sm-auto col-lg-3 col-xl-3 d-flex d-sm-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-xl-center">
+                        <div class="row justify-content-center"><img src="assets/img/Logo/logo1.png" style="width: 60%;height: 100%;"></div>
+                        <div class="row" id="footer-icons">
+                            <div class="col" style="padding: 0px;"><a href="https://www.facebook.com/Villa-Trojany-111707006869660/" target="_blank"><img src="assets/img/Icons/fpop.png" width="50px" height="50px" style="margin: 5px;"></a></div>
+                            <div class="col" style="padding: 0px;"><a href="https://www.instagram.com/villatrojany/" target="_blank"><img src="assets/img/Icons/instap.png" width="50px" height="50px" style="margin: 5px;"></a></div>
+                            <div class="col d-none d-print-inline d-sm-none d-md-inline d-lg-inline d-xl-inline"
+                                style="padding: 0px;"><a href="contact.html"><img src="assets/img/Icons/tpop.png" width="50px" height="50px" style="margin: 5px;"></a></div>
+                            <div class="col d-inline d-print-none d-sm-inline d-md-none d-lg-none d-xl-none" style="padding: 0px;"><a href="tel:+48500138491"><img src="assets/img/Icons/tpop.png" width="50px" height="50px" style="margin: 5px;"></a></div>
+                            <div class="col" style="padding: 0px;"><a href="index.html#contact"><img src="assets/img/Icons/ppop.png" width="50px" height="50px" style="margin: 5px;"></a></div>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-xl-stretch" style="padding: 10px;font-size: 14px;">
+                        <div class="row text-center text-sm-left text-md-left text-lg-left text-xl-left d-flex flex-column align-self-center flex-sm-row flex-md-row flex-lg-row flex-xl-row" style="width: 100%;">
+                            <div class="col">
+                                <p><strong>Adres</strong></p>
+                                <p>Villa Trojany sp. z o.o.<br>Żmijewo-Trojany 17<br>06-561 Stupsk<br></p>
+                            </div>
+                            <div class="col">
+                                <p><strong>Biuro</strong></p>
+                                <p>Aleksandra Olszewska<br>+48 798 447 443, +48 23 685 80 10<br>biuro@villatrojany.pl<br></p>
+                            </div>
+                            <div class="col">
+                                <p><strong>Dyrektor</strong></p>
+                                <p>Ewa Jasińska<br>+48 798 448 606<br>dyrektor@villatrojany.pl<br><br><br></p>
+                            </div>
+                        </div>
+                        <div class="row" style="color: rgb(255,255,255);">
+                            <hr class="d-none d-lg-flex d-xl-flex" style="background-color: #d0bbbb;width: 90%;margin-right: 0px;margin-left: 0px;height: 2px;">
+                        </div>
+                        <div class="row text-center d-flex align-self-center" style="width: 80%;">
+                            <div class="col">
+                                <p id="copyright">@2019 Villa Trojany sp. z o.o.&nbsp;ul. Krakowiaków 16, Warszawa 02-255<br>NIP:&nbsp;5223163629 REGON:&nbsp;38383219800000<br>Wszystkie prawa zastrzeżone.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+        <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
